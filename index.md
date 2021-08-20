@@ -6,34 +6,19 @@
 
 采用稚云安全平台可以实现：玩家知晓上次登录的时间和IP地址，用于判断账号是否被异常登录；定制插件时高危操作（如购买、使用特殊物品等）可以采用此平台进行二次验证，防止盗号产生的影响扩大；预计下个版本中实现安全资产，与其他资产隔离，同样需要安全平台验证才可交易。
 
-### Markdown
+### 开发API
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+调用静态方法简单实现验证平台客户端是否登录
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```api
+import static com.hxzmmc.call.Client.ifConnect;
+···
+#static boolean	ifConnect(Player player)
+#static boolean	ifConnect(String UUID)
+#根据服务器数据判断玩家的安全客户端是否在线
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
+### Download
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/1733640981/NaiveSafety.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
