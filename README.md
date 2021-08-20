@@ -10,8 +10,10 @@
 
 调用静态方法简单实现验证平台客户端是否登录
 
+```api
 import static com.hxzmmc.call.Client.ifConnect;
 ···
 #static boolean	ifConnect(Player player)
 #static boolean	ifConnect(String UUID)
 #根据服务器数据判断玩家的安全客户端是否在线
+```
