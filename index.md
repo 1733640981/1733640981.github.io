@@ -20,5 +20,5 @@ import static com.hxzmmc.call.Client.ifConnect;
 
 ### Download
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/1733640981/NaiveSafety.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+下载地址 [1.0.0](https://github.com/1733640981/1733640981.github.io/releases/tag/1.0.0)
 
