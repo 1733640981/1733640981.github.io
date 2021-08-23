@@ -28,7 +28,7 @@ static void setMoney(Player player, int Money)设置玩家安全资产数量
 static void setMoney(String UUID, int Money)设置玩家安全资产数量
 ```
 
-###已知问题
+### 已知问题
 
 1.虽然支持1.8以上版本，但是可能是由于官方验证方法不同？或是其他原因，亲测1.8版本和1.12版本的同用户(我自己的/正版登录)UUID不同，所以尽量不要跨版本复制存档文件，前提是你已经确定前后版本的UUID相同
 
