@@ -42,6 +42,6 @@ static void setMoney(String UUID, int Money)设置玩家安全资产数量
 
 Naive Security
 下载地址 [1.0.0](https://github.com/1733640981/1733640981.github.io/releases/tag/1.0.0) 支持1.12+<br>
-下载地址 [1.1.0](https://github.com/1733640981/1733640981.github.io/releases/tag/1.1.0) 支持1.8+
-Naive Auth
-下载地址 [1.0.0](https://github.com/)支持1.12+(基于NaiveSecurity 1.0.0以上)
+下载地址 [1.1.0](https://github.com/1733640981/1733640981.github.io/releases/tag/1.1.0) 支持1.8+<br>
+Naive Auth<br>
+下载地址 [1.0.0](https://github.com/1733640981/1733640981.github.io/releases/tag/1.0.0-beta)支持1.8+(依赖NaiveSecurity 1.0.0以上)
