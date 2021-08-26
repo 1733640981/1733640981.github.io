@@ -1,6 +1,8 @@
-## Naive Security - 稚云安全
+## Naive Plugins - 稚云插件
 
-稚云安全是一款基于Bukkit API的安全验证工具，作者QQ[1733640981](http://wpa.qq.com/msgrd?v=3&uin=1733640981&site=qq&menu=yes)注明来意。
+稚云插件是一套基于Bukkit API的、不依赖第三方运行平台的、非常良心(哈哈哈哈)的安全验证工具，作者QQ[1733640981](http://wpa.qq.com/msgrd?v=3&uin=1733640981&site=qq&menu=yes)注明来意。
+
+### Naive Security 稚云安全
 
 稚云安全平台的原理是：于Bukkit服务器启动时开放21017端口，与玩家使用的安全平台客户端通信；玩家的登录账户为玩家的UUID，安全密匙需在游戏中第一次手动设置，除配置文件外无法更改安全密匙；安全密匙采用MD5方式验证，不会直接暴露；全过程为Bukkit服务器与玩家客户端的连接，无任何连接外部网络的行为。
 
@@ -32,7 +34,14 @@ static void setMoney(String UUID, int Money)设置玩家安全资产数量
 
 1.虽然支持1.8以上版本，但是可能是由于官方验证方法不同？或是其他原因，亲测1.8版本和1.12版本的同用户(我自己的/正版登录)UUID不同，所以尽量不要跨版本复制存档文件，前提是你已经确定前后版本的UUID相同
 
+### Naive Auth 稚云验证
+
+替代其他验证方式的外置登录器验证方法，有效解决客户端内特殊方法获取密码发生盗号等问题；同时由于采用稚云安全平台，使得验证不需要依赖于其他第三方平台，有效解决对第三方平台运营的依赖。
+
 ### Download
 
+Naive Security
 下载地址 [1.0.0](https://github.com/1733640981/1733640981.github.io/releases/tag/1.0.0) 支持1.12+<br>
 下载地址 [1.1.0](https://github.com/1733640981/1733640981.github.io/releases/tag/1.1.0) 支持1.8+
+Naive Auth
+下载地址 [1.0.0](https://github.com/)支持1.12+(基于NaiveSecurity 1.0.0以上)
